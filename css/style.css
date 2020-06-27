@@ -1,3 +1,7 @@
+/* #ECECEC */
+/* #454851 */
+/* #03B5A9 */
+
 html {
     background-color: #ECECEC;
     font-family: Helvetica;    
@@ -30,5 +34,49 @@ body {
 }
   
 .fa:hover {
+    color: #03B5A9;
     opacity: 0.7;
+}
+
+#intro a {
+    font-weight: bold;
+    color: black;
+}
+
+#intro a:hover {
+    color: #03B5A9;
+}
+
+#navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #ECECEC;
+    border-style: none none solid none;
+}
+
+#navbar-list {    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+#navbar li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+#navbar a {
+    display: block;
+    color: black;
+    margin: auto;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: #03B5A9;
 }
