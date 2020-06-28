@@ -23,9 +23,12 @@ body {
     border-radius: 5%;
 }
 
+#socials {
+    font-size: 1.25em;
+}
+
 .fa {
     padding: 0 1em;
-    font-size: 1em;
     width: 2em;
     text-align: center;
     text-decoration: none;
