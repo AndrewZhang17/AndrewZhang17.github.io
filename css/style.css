@@ -27,18 +27,19 @@ body {
     font-size: 1.25em;
 }
 
-.fa {
+#socials {
     padding: 0 1em;
     width: 2em;
+}
+
+.fa {    
     text-align: center;
     text-decoration: none;
     color: black;
-
 }
   
 .fa:hover {
     color: #03B5A9;
-    opacity: 0.7;
 }
 
 #intro a {
@@ -82,4 +83,36 @@ body {
 
 #navbar a:hover {
     color: #03B5A9;
+}
+
+#project-grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    border-style: solid none none none;
+    padding: 0 1em 2em;
+}
+
+.project-title {
+    margin: 0.5em 0;
+}
+
+.project-content {
+    display: flex;
+}
+
+.project-img {
+    width: 10em;
+    margin-right: 1em;
+    border-radius: 5%;
+}
+
+.project-content > p {
+    margin: 0;
+}
+
+.project-desc > .fa {
+    margin-right: 0.25em;
 }

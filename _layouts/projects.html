@@ -2,11 +2,30 @@
 layout: default
 ---
 
+<h1>
+    {{ page.title }}
+</h1>
+
 {{ content }}
-<ul class="project-list">
-{% for post in site.posts limit: 3 %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-{% endfor %}
-</ul>
+
+<div id="project-grid">
+    {% for proj in site.projects %}
+        <div class="project">
+            <h2 class="project-title">
+                {{ proj.title }}
+            </h2>
+            <div class="project-content">
+                <img class="project-img" src="{{ proj.img }}">
+                <div class="project-desc">
+                    {{ proj.content }}
+                    {% if proj.github %}
+                        <a href="{{ proj.github }}" target="_blank" class="fa fa-2x fa-github"></a>
+                    {% endif %}
+                    {% if proj.link %}
+                        <a href="{{ proj.link }}" target="_blank" class="fa fa-2x fa-link"></a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
