@@ -1,7 +1,4 @@
 title: Andrew Zhang
 
 collections:
-    projects:
-        order:
-            - PythonGC.md
-            - ARPhysics.md
+    - projects

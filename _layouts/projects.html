@@ -9,7 +9,8 @@ layout: default
 {{ content }}
 
 <div id="project-grid">
-    {% for proj in site.projects %}
+    {% assign sorted = (site.projects | sort: 'order') | reverse %}
+    {% for proj in sorted) %}
         <div class="project">
             <h2 class="project-title">
                 {{ proj.title }}
