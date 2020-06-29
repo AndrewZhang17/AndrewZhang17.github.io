@@ -136,3 +136,11 @@ body {
 .blog-item > h2 {
     margin: 0.5em 0;
 }
+
+.post-title {
+    margin-bottom: 0;
+}
+
+.post-date {
+    margin-top: 0;
+}
