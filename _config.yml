@@ -1,4 +1,7 @@
 title: Andrew Zhang
 
 collections:
-    - projects
+    projects:
+        order:
+            - pythonGarbage.md
+            - ARPhyscis.md

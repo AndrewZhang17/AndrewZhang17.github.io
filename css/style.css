@@ -10,6 +10,7 @@ html {
 body {
     margin: auto;
     max-width: 40em;
+    overflow-y: scroll;
 }
 
 #intro-header {
@@ -109,6 +110,7 @@ body {
 
 .project-img {
     width: 10em;
+    height: 10em;
     margin-right: 1em;
     border-radius: 5%;
 }
@@ -119,4 +121,18 @@ body {
 
 .project-desc > .fa {
     margin-right: 0.25em;
+}
+
+.blog-link {
+    text-decoration: none;
+    color: black;
+}
+
+.blog-item {
+    border-style: solid none none none;
+    padding: 0 1em 2em;
+}
+
+.blog-item > h2 {
+    margin: 0.5em 0;
 }

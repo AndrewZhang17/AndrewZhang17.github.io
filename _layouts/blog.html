@@ -7,10 +7,18 @@ layout: default
 </h1>
 
 {{ content }}
-<ul class="post-list">
+<div id="blog-grid">
 {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title}}</a>
-    <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
+    <a class="blog-link" href="{{ post.url }}">
+        <div class="blog-item">
+            <h2>
+                {{ post.title}}
+            </h2>
+            <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+        </div>
+    </a>
+    
+    
+    
 {% endfor %}
-</ul>
+</div>
