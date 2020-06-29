@@ -17,6 +17,10 @@ body {
     text-align: center;
 }
 
+#intro-title {
+    margin: 0.75em;
+}
+
 #photo {
     margin: auto;
     max-width: 10em;
@@ -27,7 +31,7 @@ body {
     font-size: 1.25em;
 }
 
-#socials {
+#socials > .fa {
     padding: 0 1em;
     width: 2em;
 }
