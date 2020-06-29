@@ -1,6 +1,6 @@
 ---
 title: Python Garbage Collector Analysis
-img: /images/proj/PythonGarbage.png
+img: /images/proj/PythonGC.png
 github: https://github.com/ChinmaySonar/cs263-runtime-systems-python
 link: /docs/proj/PythonGarbageCollection.pdf
 ---
