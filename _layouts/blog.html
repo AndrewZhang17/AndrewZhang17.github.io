@@ -14,7 +14,11 @@ layout: default
             <h2>
                 {{ post.title}}
             </h2>
-            <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <h5 class="postDate">{{ post.date | date: "%b %-d, %Y" }}</h5>
+            <p>
+                {{ post.excerpt }}
+                ...
+            </p>
         </a>
     </div>
     

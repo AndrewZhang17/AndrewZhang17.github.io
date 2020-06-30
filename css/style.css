@@ -126,6 +126,7 @@ a:hover {
 .blog-link {
     text-decoration: none;
     color: black;
+    font-weight: normal;
 }
 
 .blog-item {
@@ -135,6 +136,10 @@ a:hover {
 
 .blog-link > h2 {
     margin: 0.5em 0;
+}
+
+.blog-link > h5{
+    margin: 0;
 }
 
 .post-title {

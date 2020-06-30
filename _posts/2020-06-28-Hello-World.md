@@ -1,9 +1,12 @@
 ---
 title: Hello, World!
 layout: post
+excerpt_separator: <!--more-->
 ---
 
 Thanks for visiting my site, and welcome to my first blog post! This is a place where I will ramble about things that I want to talk about. 
+
+<!--more-->
 
 I have never blogged before so this should be interesting. I actually strongly disliked writing in school, so I probably won't edit any of my posts (look out for hecka typos and grammatical errors). Given that we are all stuck inside due to this global pandemic, I might as well find something new to do. Some people decided to start baking bread or do home workouts. I have decided I will create a website and start a blog. 
 
