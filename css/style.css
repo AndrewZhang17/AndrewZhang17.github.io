@@ -47,12 +47,12 @@ body {
     color: #03B5A9;
 }
 
-#intro a {
+a {
     font-weight: bold;
     color: black;
 }
 
-#intro a:hover {
+a:hover {
     color: #03B5A9;
 }
 
@@ -133,7 +133,7 @@ body {
     padding: 0 1em 2em;
 }
 
-.blog-item > h2 {
+.blog-link > h2 {
     margin: 0.5em 0;
 }
 

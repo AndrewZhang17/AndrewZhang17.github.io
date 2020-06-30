@@ -9,14 +9,14 @@ layout: default
 {{ content }}
 <div id="blog-grid">
 {% for post in site.posts %}
-    <a class="blog-link" href="{{ post.url }}">
-        <div class="blog-item">
+    <div class="blog-item">
+        <a class="blog-link" href="{{ post.url }}">
             <h2>
                 {{ post.title}}
             </h2>
             <span class="postDate">{{ post.date | date: "%b %-d, %Y" }}</span>
-        </div>
-    </a>
+        </a>
+    </div>
     
     
     
