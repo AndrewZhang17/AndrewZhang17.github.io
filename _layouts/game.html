@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<script src="/games/{{ page.game }}/Build/UnityLoader.js"></script>
+<script>
+    var gameInstance = UnityLoader.instantiate("gameContainer", "/games/{{ page.game }}/Build/htmlBuild.json");
+</script>
+
+<div class="webgl-content">
+    <div id="gameContainer" style="width: 720px; height: 450px"></div>
+</div>
+
+<div class="instructions">
+    {{ page.content }}
+</div>

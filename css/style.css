@@ -62,6 +62,7 @@ a:hover {
     width: 100%;
     background-color: #ECECEC;
     border-style: none none solid none;
+    z-index: 999;
 }
 
 #navbar-list {    
@@ -148,4 +149,14 @@ a:hover {
 
 .post-date {
     margin-top: 0;
+}
+
+.webgl-content {
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+#gameContainer {
+    flex-shrink: 0;
 }
