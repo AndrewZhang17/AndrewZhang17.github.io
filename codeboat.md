@@ -2,6 +2,7 @@
 title: CodeBoat
 game: codeboat
 layout: game
+permalink: /codeboat
 ---
 
 How to play: Tap 'c' to enter a dit, hold 'c' to enter a dah, and press 'spacebar' to enter a space to separate lettters. Press 'return' to submit. 
