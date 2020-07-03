@@ -19,11 +19,11 @@ layout: default
                 <img class="project-img" src="{{ proj.img }}">
                 <div class="project-desc">
                     {{ proj.content }}
-                    {% if proj.github %}
-                        <a href="{{ proj.github }}" target="_blank" class="fa fa-2x fa-github"></a>
-                    {% endif %}
                     {% if proj.link %}
                         <a href="{{ proj.link }}" target="_blank" class="fa fa-2x fa-link"></a>
+                    {% endif %}
+                    {% if proj.github %}
+                        <a href="{{ proj.github }}" target="_blank" class="fa fa-2x fa-github"></a>
                     {% endif %}
                 </div>
             </div>

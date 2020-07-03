@@ -121,7 +121,11 @@ a:hover {
 }
 
 .project-desc > .fa {
-    margin-right: 0.25em;
+    margin: 0 0.5em;
+}
+
+.project-desc > p {
+    margin: 0 0 1em 1em;
 }
 
 .blog-link {
