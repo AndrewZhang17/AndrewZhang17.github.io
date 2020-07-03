@@ -2,3 +2,8 @@ title: Andrew Zhang
 
 collections:
     - projects
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
