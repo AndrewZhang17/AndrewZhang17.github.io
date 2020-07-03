@@ -160,3 +160,12 @@ a:hover {
 #gameContainer {
     flex-shrink: 0;
 }
+
+.instructions > table {
+    border-collapse: collapse;
+}
+
+.instructions * th {
+    padding: 0 1em;
+    border-bottom: 1px solid black;
+}
