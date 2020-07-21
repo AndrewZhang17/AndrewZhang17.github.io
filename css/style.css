@@ -173,3 +173,8 @@ a:hover {
     padding: 0 1em;
     border-bottom: 1px solid black;
 }
+
+.blog-img {
+    margin: 1em 5em;
+    width: 30em;
+}
