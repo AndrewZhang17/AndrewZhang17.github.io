@@ -8,6 +8,8 @@ Like many people during quarantine, I have decided to hop on Robinhood to try my
 
 <!--more-->
 
+Get a free stock with my Robinhood [referral link](https://join.robinhood.com/andrewz466){:target="_blank"}!
+
 The focus of this post will not be my specific strategies in the stock market or other passive income source ideas. It will be a few of the important guiding principles I have come across and hope to follow long term, and believe will help anyone maintain good financial health. I will briefly outline some more specific ideas that I subscribe to towards the end. I realize that I am incredibly fortunate to even think about building wealth, as some people are unfortunately unable to save or invest money while simultaneously supporting themselves and their families. This is especially prevalent during this global pandemic where unemployment rates have spiked. I know that this advice cannot apply to everyone, especially during these uncertain times.
 
 **1. Establish an Emergency Fund**\\
